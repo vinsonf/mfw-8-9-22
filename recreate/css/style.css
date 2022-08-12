@@ -5,7 +5,9 @@ header {
     background-size: cover;
 }
 
-a{}
+a{
+    color: #fff !important;
+}
 
 
 nav  {

@@ -1,0 +1,28 @@
+:root{
+    --primary: #036871;
+    --secondary: rgb(34, 168, 157);
+    --tertiary: #000;
+    --danger: red;
+    --success: green;
+    --warning: orange;
+    --info: blue;
+    --light: #f0f0f5;
+    --dark: #000;
+    --gray: #828282;
+}
+
+
+.text-primary {
+    color: var(--primary) !important;
+}
+
+.text-secondary {
+    color: var(--secondary) !important;
+}
+
+.bg-primary {
+    background-color: var(--primary) !important;
+}
+.btn-primary {
+    background-color: var(--primary);
+}

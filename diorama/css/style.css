@@ -1,0 +1,52 @@
+/* parallax wrapper */
+    .wrapper {
+        height: 100vh;
+        width: 100vw;
+        background-color: black;
+        perspective: 10px;
+        overflow-y: auto;
+    }
+/* parallax header */
+    .para1 {
+     
+        transform-style: preserve-3d;
+        position: relative;
+      
+    }
+/* parallax background */
+
+.bg1{
+    height: 80vh;
+    width: 100vw;
+    object-fit: cover;
+    position: absolute;
+    transform: translateZ(-10px) scale(2);
+    z-index: -1;
+    top: -500px;
+
+}
+
+.bg2{
+    display: none;
+    height: 80vh;
+    width: 60vw;
+    object-fit: cover;
+    position: absolute;
+    transform: translateZ(-5px) scale(1.5);
+}
+
+.text{
+    color: red;
+    margin-top: 300px;
+    font-size: 40px;
+    z-index: 1;
+    position: relative;
+    background-color: black;
+}
+
+.heading {
+    color: white;
+    text-align: center;
+    font-size: 100px;
+    padding: 20px;
+}

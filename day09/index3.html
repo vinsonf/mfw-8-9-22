@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        div {
+            background-color: red;
+          
+            border: 1px solid black;
+        }
+
+        div:nth-of-type(3) {
+            height: 90vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        div:nth-of-type(3) h1 {
+            font-size: clamp(16px, 10vw, 100px);
+            text-align: center;
+            animation: spin-big 5s, fade-in 10s;
+        }
+
+        div:nth-of-type(4) {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: blue;
+        }
+
+
+        @keyframes spin-big{
+            0% {
+                transform: rotate(0deg);
+                font-size: 1px;
+                background-color: blue;
+            }
+            100% {
+                transform: rotate(360deg);
+                font-size: 10vw;
+                background-color: red;
+            }
+        }
+
+        @keyframes fade-in {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+            
+        }
+    </style>
+    <div></div>
+    <div></div>
+    <div>
+        <h1>
+            Awesome Adventure
+        </h1>
+       
+    </div>
+
+    <div>content all about the adventure</div>
+    <div>map</div>
+</body>
+</html>

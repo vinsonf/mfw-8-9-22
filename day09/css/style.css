@@ -1,0 +1,54 @@
+:root {
+    --basic-spacing: 12px;
+    --large-spacing: 24px;
+}
+
+li {
+    background-color: orange;
+    border: 1px solid black;
+    padding: var(--basic-spacing);
+    list-style: none;
+}
+li::before {
+    content: "$";
+    margin-right: var(--basic-spacing);
+    position: relative;
+    left: -25px;
+}
+li:after {
+    content: "$";
+    margin-left: 10px;
+    position: relative;
+    right: -25px;
+    color: red;
+}
+
+li:first-child {
+    background-color: red;
+}
+li:last-child {
+    background-color: green;
+}
+li:nth-child(even) {
+    background-color: blue;
+}
+
+input {
+    accent-color: #909d30;
+    height: 20px; /* not needed */
+    width: 20px; /* not needed */
+    background-color: red;
+}
+input:checked {
+    accent-color: #30369d;
+    height: 20px; /* not needed */
+    width: 20px; /* not needed */
+}
+input:not(:checked):before {
+    content: "";
+    color: transparent;
+    background-color: #9d3930;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}

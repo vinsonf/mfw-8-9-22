@@ -1,0 +1,17 @@
+.large-text {
+    font-size: 10rem;
+    font-weight: bolder;
+    color: rgba(216, 213, 213, 0.78);
+    position: absolute;
+    top: 40px;
+    z-index: 3;
+    left: 10px;
+}
+
+.box {
+    width: 500px;
+    display: inline-block;
+    font-size: .8em;
+    position: relative;
+    z-index: 4;
+}

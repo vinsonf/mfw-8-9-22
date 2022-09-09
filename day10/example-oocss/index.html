@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+ 
+    <!-- <div class="large-square green">
+        <div class="square red"></div>
+        <div class="square blue active"></div>
+    </div>
+
+    <div class="huge-square yellow absolute">
+        <div class="large-square blue  slight-right slight-down absolute">
+            <div class="square green  slight-right way-down ">
+                <div class="small-square red absolute slight-down"></div>
+            </div>
+        
+        </div>
+    </div>
+  -->
+
+
+    <ul class="nav-links">
+        <li>home</li>
+        <li>about</li>
+        <li>contact</li>
+    </ul>
+
+
+  <ul>
+    <li class="menu-item shadow m-2 ">products</li>
+    <li class="menu-item shadow m-2">reviews</li>
+    <li class="menu-item shadow m-2">history</li>
+  </ul>
+
+    <ul class="products">
+        <li class="product shadow m-2">product1</li>
+        <li class="product shadow m-2 ">product2</li>
+        <li class="product shadow m-2">product3</li>
+    </ul>
+    
+    <script>
+        document.querySelectorAll('li').forEach(li => {
+            li.addEventListener('click', () => {
+                document.querySelector('.selected')?.classList.remove('selected');
+                li.classList.add('selected');
+            })
+        })
+    </script>
+    
+</body>
+</html>

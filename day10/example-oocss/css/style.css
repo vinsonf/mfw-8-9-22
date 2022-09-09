@@ -1,0 +1,104 @@
+/* structore */
+.square {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}
+
+.large-square {
+    width: 500px;
+    height: 500px;
+}
+
+.small-square {
+    width: 100px;
+    height: 100px;
+}
+
+.huge-square {
+    width: 1000px;
+    height: 1000px;
+}
+
+.relative {
+    position: relative;
+}   
+
+.absolute {
+    position: absolute;
+}
+
+.slight-right {
+    left: 30px;
+}
+.slight-left {
+    left: -30px;
+}
+.slight-up {
+    top: -30px;
+}
+.slight-down {
+    top: 30px;
+}
+.way-down {
+    top: 100px;
+}
+
+/* skin */
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+.yellow {
+    background-color: yellow;
+}
+.active {
+    border: 20px solid lime;
+}
+
+
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+
+}
+
+.products {
+    display: flex;
+}
+
+.product {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.menu-item {
+    padding: 10px;
+    border: 1px solid black;
+
+    list-style: none;
+}
+
+.shadow {
+    box-shadow: 10px 10px 5px grey;
+}
+
+.m-2 {
+    margin: 8px;
+}
+
+.selected {
+    background-color: lime;
+}

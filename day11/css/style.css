@@ -1,0 +1,35 @@
+h1 {
+  background-color: aqua;
+}
+
+.first {
+  background-color: red;
+  margin: 20px;
+}
+.first li {
+  background-color: blue;
+  margin: 20px;
+}
+.first h1 {
+  background-color: blue;
+  margin: 20px;
+}
+.first h1 span {
+  background-color: yellow;
+}
+
+.second {
+  background-color: green;
+  margin: 20px;
+}
+.second li {
+  background-color: yellow;
+  margin: 20px;
+}
+.second h1 {
+  background-color: red;
+  margin: 20px;
+}
+.second h1 span {
+  background-color: blue;
+}/*# sourceMappingURL=style.css.map */

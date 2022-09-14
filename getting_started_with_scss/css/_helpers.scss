@@ -1,0 +1,4 @@
+@mixin makeDark($color: red,) {
+   background-color: darken($color, 10%);
+   box-shadow: 0 0 5px black;
+}

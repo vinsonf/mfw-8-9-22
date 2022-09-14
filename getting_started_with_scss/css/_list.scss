@@ -1,0 +1,28 @@
+
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    li {
+        padding: 10px;
+        margin: 10px;
+        background-color: #eee;
+        border-radius: 5px;
+    }
+}
+
+.grocery-list {
+    @extend .list;
+    li {
+        background-color: rgb(41, 219, 74);
+    }
+
+}
+
+.movie-list {
+    @extend .list;
+    li {
+        background-color: rgb(23, 106, 131);
+    }
+
+}

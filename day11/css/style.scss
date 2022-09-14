@@ -1,0 +1,39 @@
+h1 {
+    background-color: aqua;
+}
+
+.first {
+    background-color: red;
+    margin: 20px;
+    li {
+        background-color: blue;
+        margin: 20px;
+    }
+    h1{
+        background-color: blue;
+        margin: 20px;
+        span{
+            background-color: yellow;
+        }
+    }
+}
+
+
+.second {
+    background-color: green;
+    margin: 20px;
+    li {
+        background-color: yellow;
+        margin: 20px;
+    }
+    h1{
+        background-color: red;
+        margin: 20px;
+        span{
+            background-color: blue;
+        }
+    }
+}
+
+
+

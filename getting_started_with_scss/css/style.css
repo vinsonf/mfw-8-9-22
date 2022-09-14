@@ -1,0 +1,81 @@
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  background-color: red;
+}
+button:hover {
+  background-color: #cc0000;
+  box-shadow: 0 0 5px black;
+}
+
+button.large {
+  font-size: 1.5rem;
+  background-color: green;
+}
+button.large:hover {
+  background-color: #004d00;
+  box-shadow: 0 0 5px black;
+}
+
+.hero ol {
+  padding: 0;
+  margin: 20px;
+  font-size: 30px;
+}
+.hero ol li {
+  padding: 10px;
+  margin: 10px;
+  background-color: #eee;
+  border-radius: 10px;
+}
+
+.about ol {
+  padding: 0;
+  margin: 20px;
+  font-size: 30px;
+}
+.about ol li {
+  padding: 10px;
+  margin: 10px;
+  background-color: blue;
+  border-radius: 10px;
+}
+.about ol li:nth-child(3) {
+  margin: 10px;
+}
+
+body {
+  background-color: rgb(118, 92, 92);
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 30px;
+  }
+}
+.list, .movie-list, .grocery-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.list li, .movie-list li, .grocery-list li {
+  padding: 10px;
+  margin: 10px;
+  background-color: #eee;
+  border-radius: 5px;
+}
+
+.grocery-list li {
+  background-color: rgb(41, 219, 74);
+}
+
+.movie-list li {
+  background-color: rgb(23, 106, 131);
+}/*# sourceMappingURL=style.css.map */

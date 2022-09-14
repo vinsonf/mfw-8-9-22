@@ -1,0 +1,17 @@
+@import 'variables';
+.hero {
+    ol {
+        padding: 0;
+        margin: 20px;
+        font-size: 30px;
+        li {
+          
+            padding: $small-padding;
+            margin: $small-margin;
+            background-color: #eee;
+            border-radius: $small-rounded;
+        }
+    
+    }
+    
+}

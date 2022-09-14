@@ -1,0 +1,19 @@
+.title {
+  @extend .container;
+  @extend .p-4;
+  @extend .bg-dark;
+  @extend .mt-5;
+  @extend .shadow;
+  h1 {
+    @extend .text-white;
+    @extend .text-center;
+    @extend .p-5;
+    @extend .text-white;
+    @extend .text-center;
+    @extend .display-1;
+    @extend .fw-bold;
+    @extend .m-5;
+  }
+
+ 
+}
